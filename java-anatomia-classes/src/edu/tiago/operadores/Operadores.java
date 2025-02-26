@@ -61,7 +61,7 @@ public class Operadores {
         boolean x = true;
         boolean y = false;
 
-        if(x && Y){
+        if(x && y){
             System.out.println("As duas condições são verdadeiras");
         } else if(x || y){
             System.out.println("Pelo menos uma condição é verdadeira");
