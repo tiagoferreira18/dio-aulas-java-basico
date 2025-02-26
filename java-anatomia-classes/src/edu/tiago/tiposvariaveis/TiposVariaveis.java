@@ -5,7 +5,7 @@ public class TiposVariaveis {
         System.out.println("Hello Word!");
 
         /* Variaveis */
-        int numero = 5;
+        int numero;
         numero = 10;
         System.out.println(numero);
 
@@ -26,6 +26,7 @@ public class TiposVariaveis {
         char c = 'A'; // 16 bits
         boolean bool = true; // 1 bit
 
+        System.out.println(b + " " + s + " " + i + " " + l + " " + f + " " + d + " " + c + " " + bool);
 
         //Classe String
         String nome = "Tiago";
