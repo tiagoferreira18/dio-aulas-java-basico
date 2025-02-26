@@ -56,6 +56,29 @@ public class Operadores {
         String nome2 = new String("Tiago"); // Cria um novo objeto
         System.out.println(nome1 == nome2); // Compara a referência de memória
         System.out.println(nome1.equals(nome2));   // Compara o conteúdo da String - sempre usar equals para comparar Strings
+
+        //operadores lógicos
+        boolean x = true;
+        boolean y = false;
+
+        if(x && Y){
+            System.out.println("As duas condições são verdadeiras");
+        } else if(x || y){
+            System.out.println("Pelo menos uma condição é verdadeira");
+        } else if(x ^ y){
+            System.out.println("Apenas uma condição é verdadeira");
+        } else if(!x){
+            System.out.println("A condição é falsa");
+        } else {
+            System.out.println("Nenhuma condição é verdadeira");
+        }
+
+        
+        /* System.out.println(x && y); // E
+        System.out.println(x || y); // OU
+        System.out.println(x ^ y); // OU exclusivo
+        System.out.println(!x); // Negação */
+
         
     }
   
