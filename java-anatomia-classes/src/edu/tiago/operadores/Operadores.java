@@ -52,9 +52,10 @@ public class Operadores {
         System.out.println(a >= b);
         System.out.println(a <= b);
 
+        //operadores de igualdade
         String nome1 = "Tiago";
-        String nome2 = new String("Tiago"); // Cria um novo objeto
-        System.out.println(nome1 == nome2); // Compara a referência de memória
+        String nome2 = ( "Tiago"); // Cria um novo objeto
+        //System.out.println(nome1 == nome2); // Compara a referência de memória
         System.out.println(nome1.equals(nome2));   // Compara o conteúdo da String - sempre usar equals para comparar Strings
 
         //operadores lógicos
